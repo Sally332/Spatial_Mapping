@@ -1,6 +1,6 @@
 # Spatial Transcriptomics of Breast Cancer and Lymph Node Metastases
 
-**A reproducible and interpretable analysis of tumor architecture using 10x Visium spatial transcriptomics**
+**An interpretable and biologically grounded mapping of tumor architecture through 10x Visium spatial transcriptomics**
 
 ---
 
