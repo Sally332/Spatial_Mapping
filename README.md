@@ -1,4 +1,7 @@
-# Spatial Transcriptomics of Breast Cancer and Lymph Node Metastases
+# Spatial Mapping of Tumor Architecture through 10x Visium Transcriptomics
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](#)
+[![Workflow](https://img.shields.io/badge/Analysis-End--to--End-brightgreen.svg)](#)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17272950.svg)](https://doi.org/10.5281/zenodo.17272950)
 
 **An interpretable and biologically grounded mapping of tumor architecture through 10x Visium spatial transcriptomics**
 
@@ -34,7 +37,7 @@ See the long README in this repository for a full description of datasets, metho
 ## Citation
 If you use or adapt this framework, please cite:
 
-> Yepes S. *Spatial Transcriptomics of Breast Cancer and Lymph Node Metastases.* GitHub, 2025.  
-> Available at: [https://github.com/Sally332/Spatial_Mapping](https://github.com/Sally332/Spatial_Mapping)
+> Yepes, S. *Spatial Mapping of Tumor Architecture through 10x Visium Transcriptomics.*  
+> GitHub Repository, 2025. DOI: [10.5281/zenodo.17272950](https://doi.org/10.5281/zenodo.17272950)
 
 ---
