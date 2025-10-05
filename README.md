@@ -22,9 +22,7 @@ The analysis emphasizes **interpretability and reproducibility**, using region-b
 
 ## Notebook Philosophy
 
-The notebook is written as a **transparent, narrative-style analysis**, where code, results, and interpretation are fully integrated.  
-Each cell is **highly commented**, explaining not only what each step does but also the **reasoning and biological rationale** behind it.  
-Figures and annotations are embedded throughout, making the workflow self-explanatory and reproducible from start to finish.
+The notebook is written as a **transparent, narrative-style analysis**, where code, results, and interpretation are fully integrated. Each cell is **highly commented**, explaining not only what each step does but also the **reasoning and biological rationale** behind it. Figures and annotations are embedded throughout, making the workflow self-explanatory and reproducible from start to finish.
 
 ---
 
@@ -37,8 +35,7 @@ Figures and annotations are embedded throughout, making the workflow self-explan
 
 ## Notes
 
-All steps are designed for **clarity, reproducibility, and communication** of spatial organization in cancer tissues.  
-The repository illustrates how simple, interpretable spatial workflows can complement more complex graph-based models such as *SpatialMMKPNN*.
+All steps are designed for **clarity, reproducibility, and communication** of spatial organization in cancer tissues. The repository illustrates how simple, interpretable spatial workflows can complement more complex graph-based models such as *SpatialMMKPNN*.
 
 ---
 
