@@ -1,48 +1,40 @@
 # Spatial Transcriptomics of Breast Cancer and Lymph Node Metastases
 
-This repository presents an **interpretable spatial transcriptomics analysis** of primary breast tumors and matched lymph node metastases (LNMT). The project integrates **10x Visium spatial gene expression** with **scRNA-seq–derived gene programs** to characterize tissue architecture, regional signaling, and spatial remodeling associated with metastatic progression.
+**A reproducible and interpretable analysis of tumor architecture using 10x Visium spatial transcriptomics**
 
 ---
 
 ## Overview
+This repository presents an interpretable spatial transcriptomics analysis of **primary breast tumors** and **matched lymph node metastases (LNMT)**, designed to uncover how tumor, immune, and stromal programs reorganize across disease progression. By integrating 10x Visium spatial gene expression with **scRNA-seq–derived functional signatures**, the analysis identifies **immune exclusion zones, stromal barriers, and proliferative niches** within the tumor microenvironment. It serves as both a **biological case study** of metastatic architecture and a **methodological framework** for transparent, rule-based spatial mapping that connects single-cell information to tissue-level organization.
 
-- **Program scoring** using curated signatures for epithelial, immune, stromal, and proliferation modules  
-- **Region annotation** via top-quantile masking and label assignment  
-- **Compact spatial visualizations** of regional activity and composition  
-- **Region–region adjacency** analysis quantifying tissue-level organization  
-- **Differential expression** profiling between primary tumors and LNMT  
-
----
-
-## Interpretation
-
-The analysis emphasizes **interpretability and reproducibility**, using region-based annotation to capture functional tissue compartments **without reliance on unsupervised clustering**. This approach allows transparent, biologically meaningful mapping of tumor and microenvironmental zones.
+## Highlights
+- **Spatial Logic of Metastasis:** Quantifies how immune, stromal, and proliferative zones reorganize between primary tumors and lymph node metastases  
+- **Transparent Spatial Annotation:** Uses biologically grounded, rule-based region labeling instead of clustering or latent embeddings  
+- **Multi-Scale Integration:** Connects single-cell–derived gene programs to tissue-level spatial structure, linking molecular activity with morphology  
 
 ---
 
-## Notebook Philosophy
+## Notebook Design
+The notebook follows a **narrative, fully commented structure** where code, figures, and interpretation are interleaved. Each section explains both the computational rationale and biological reasoning. All figures and outputs are embedded inline for an end-to-end, self-contained analysis.
 
-The notebook is written as a **transparent, narrative-style analysis**, where code, results, and interpretation are fully integrated. Each cell is **highly commented**, explaining not only what each step does but also the **reasoning and biological rationale** behind it. Figures and annotations are embedded throughout, making the workflow self-explanatory and reproducible from start to finish.
+📄 A **static PDF version** of the notebook, including all code and figures, is available in  
+[`docs/spatial_mapping_full.pdf`](https://github.com/Sally332/Spatial_Mapping/blob/main/docs/spatial_mapping_full.pdf).
 
 ---
 
 ## Quick Start
+📘 **Interactive notebook:**  
+[`spatial_mapping.ipynb`](https://github.com/Sally332/Spatial_Mapping/blob/main/spatial_mapping.ipynb)
 
-📘 View the full notebook:  
-[spatial_mapping.ipynb on nbviewer](https://nbviewer.org/github/Sally332/Spatial_Mapping/blob/main/spatial_mapping.ipynb)
-
----
-
-## Notes
-
-All steps are designed for **clarity, reproducibility, and communication** of spatial organization in cancer tissues. The repository illustrates how simple, interpretable spatial workflows can complement more complex graph-based models such as *SpatialMMKPNN*.
+📄 **Detailed documentation:**  
+See the long README in this repository for a full description of datasets, methods, and results.
 
 ---
 
-## License
-MIT License
+## Citation
+If you use or adapt this framework, please cite:
 
-## Author
-**Sally Yepes**  
-📧 sallyepes233@gmail.com
+> Yepes S. *Spatial Transcriptomics of Breast Cancer and Lymph Node Metastases.* GitHub, 2025.  
+> Available at: [https://github.com/Sally332/Spatial_Mapping](https://github.com/Sally332/Spatial_Mapping)
 
+---
